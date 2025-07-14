@@ -1,0 +1,73 @@
+
+.Product {
+  background-color: #f8f8f8; /* Amazon blue */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 10px;
+  width: 220px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Product h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Product img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  margin: 12px 0;
+  border-radius: 8px;
+  background: white;
+  padding: 8px;
+}
+
+.Product ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.Product li {
+  margin-bottom: 4px;
+}
+
+/* .price-block {
+  background-color: #d4ab36;
+  color: black;
+  width: auto;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: auto;
+} */
+
+.price-block .old-price {
+  text-decoration: line-through;
+  color: #333;
+  font-weight: normal;
+}
+
+.price-block .new-price {
+  color: #111;
+}
