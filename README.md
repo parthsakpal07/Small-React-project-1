@@ -1,12 +1,13 @@
-# React + Vite
+A simple React project that replicates an Amazon-style product card. The card displays a product image, title, price, and an “Add to Cart” button. Designed to practice React components, props, and basic styling for modern UI layouts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Amazon Product Card Screenshot](assets/p1.png)
 
-Currently, two official plugins are available:
+The project was built to practice core React concepts such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Functional components and JSX
 
-## Expanding the ESLint configuration.
+Passing and handling props
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Basic state management (optional, e.g. for button clicks)
+
+CSS styling for layout and hover effects
