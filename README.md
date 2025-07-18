@@ -12,6 +12,4 @@ A simple React project that replicates an Amazon-style product card. The card di
 
 5) CSS styling for layout and hover effects
 
-- Author
-  
- - Parth Sakpal
+ Author - Parth Sakpal.
