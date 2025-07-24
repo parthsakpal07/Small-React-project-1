@@ -8,7 +8,7 @@ A simple React project that replicates an Amazon-style product card. The card di
 
 3) Passing and handling props.
 
-4) Basic state management (optional, e.g. for button clicks)
+4) Basic state management (optional, e.g. for button clicks).
 
 5) CSS styling for layout and hover effects
 
