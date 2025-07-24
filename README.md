@@ -4,7 +4,7 @@ A simple React project that replicates an Amazon-style product card. The card di
 
 1) The project was built to practice core React concepts such as:
 
-2) Functional components and JSX
+2) Functional components and JSX.
 
 3) Passing and handling props
 
