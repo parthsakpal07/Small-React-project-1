@@ -6,7 +6,7 @@ A simple React project that replicates an Amazon-style product card. The card di
 
 2) Functional components and JSX.
 
-3) Passing and handling props
+3) Passing and handling props.
 
 4) Basic state management (optional, e.g. for button clicks)
 
